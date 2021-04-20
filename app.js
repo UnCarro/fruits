@@ -1,4 +1,4 @@
-//initialize the server
+//Initialize the server
 //Call the modules
 const mongoose = require("mongoose");
 
@@ -24,9 +24,12 @@ const fruit = new Fruit({
   rating: 1,
   review: "Nothing to say, a fruit",
 });
-//#####Para arreglar
-//const error = ;
-
+/////////////////////////
+//Para agregar errores.//
+//        <--->        //
+// const error = ;     //
+//        <--->        //
+/////////////////////////
 //fruit.save();
 /*
 Fruit.deleteMany({ name: "Durango" }, function (err) {
